@@ -1,6 +1,6 @@
 # 🌟 廖誌晨 網際網路概論 🌐
 
-![Welcome](https://media.giphy.com/media/l3vRkJDBY1UdcM7cm/giphy.gif) <!-- 加入歡迎的 GIF -->
+![Welcome](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWUzdXkwczB3NGhqN2FmcGtubjM5d3h1aG5jczZiazNlOWxoc3d2bCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/26tOZ42Mg6pbTUPHW/200.webp) <!-- 加入歡迎的 GIF -->
 
 ---
 
@@ -8,7 +8,7 @@
 
 ### 💻 HW1
 - **連結**: [HW1 作業連結](https://rogerliao0001.github.io/Web-113/hw1) 
-![HW1](https://media.giphy.com/media/3o6Zt6zV4nUh3A3Ahq/giphy.gif) <!-- HW1 相關的 GIF -->
+![HW1](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnc3MjhmNHVlNjVpazdnYjRuODZtamhwY29hOXV1bDd4Ymc5bmp5OCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/WoWm8YzFQJg5i/200.webp) <!-- HW1 相關的 GIF -->
 
 ---
 
