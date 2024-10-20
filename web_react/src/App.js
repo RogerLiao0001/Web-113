@@ -1,24 +1,24 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
-import { Points, PointMaterial, OrbitControls, Stars } from "@react-three/drei";
+import { Points, PointMaterial, OrbitControls, Stars, Text } from "@react-three/drei";
 import { motion } from "framer-motion";
 import * as THREE from "three";
-import { Howl } from "howler"; // 載入音效庫
+import { Howl } from "howler";
 
 // 音樂設定
 const sound = new Howl({
   src: ['https://www.bensound.com/bensound-music/bensound-theelevatorbossanova.mp3'],
-  loop: true, // 使音樂循環
-  volume: 0.5, // 設定音量
+  loop: true,
+  volume: 0.5,
+  autoplay: true, // 自動播放
 });
 
-// 自訂 Shader Material
 function CustomShaderMaterial() {
   const materialRef = useRef();
 
   useFrame(() => {
     if (materialRef.current) {
-      materialRef.current.uniforms.uTime.value += 0.05; // 讓時間參數持續增加
+      materialRef.current.uniforms.uTime.value += 0.05;
     }
   });
 
@@ -33,19 +33,21 @@ function CustomShaderMaterial() {
           },
           vertexShader: `
             varying vec2 vUv;
-            uniform float uTime; // 定義uTime
+            uniform float uTime;
             void main() {
               vUv = uv;
               vec3 pos = position;
-              pos.z += sin(position.x * 10.0 + uTime) * 0.1; // 水波效果
+              pos.z += sin(position.x * 10.0 + uTime) * 0.1;
               gl_Position = projectionMatrix * modelViewMatrix * vec4(pos, 1.0);
             }
           `,
           fragmentShader: `
             varying vec2 vUv;
             uniform vec3 uColor;
+            uniform float uTime;
             void main() {
-              gl_FragColor = vec4(uColor, 1.0);
+              vec3 color = vec3(sin(uTime) * 0.5 + 0.5, cos(uTime) * 0.5 + 0.5, sin(uTime + 3.14) * 0.5 + 0.5);
+              gl_FragColor = vec4(color, 1.0);
             }
           `,
         },
@@ -73,38 +75,59 @@ function AnimatedBox() {
 function ParticleSystem() {
   const ref = useRef();
   const [sphere] = useState(() => new Float32Array(3000).fill().map(() => (Math.random() - 0.5) * 5));
-  const colors = new Float32Array(3000 * 3); // 使用 Float32Array 來存儲顏色
-  for (let i = 0; i < colors.length; i += 3) {
-    colors[i] = Math.random();    // R
-    colors[i + 1] = Math.random(); // G
-    colors[i + 2] = Math.random(); // B
-  }
+  const [colors, setColors] = useState(() => {
+    const colors = new Float32Array(3000 * 3);
+    for (let i = 0; i < colors.length; i += 3) {
+      colors[i] = Math.random();
+      colors[i + 1] = Math.random();
+      colors[i + 2] = Math.random();
+    }
+    return colors;
+  });
 
   useFrame((state, delta) => {
-    ref.current.rotation.y += delta / 2; // 使粒子系統隨時間旋轉
-    for (let i = 0; i < colors.length; i += 3) {
-      colors[i] = Math.random();    // 隨機更新顏色 R
-      colors[i + 1] = Math.random(); // 隨機更新顏色 G
-      colors[i + 2] = Math.random(); // 隨機更新顏色 B
+    ref.current.rotation.y += delta / 2;
+    const newColors = colors.slice();
+    for (let i = 0; i < newColors.length; i += 3) {
+      newColors[i] = Math.random();
+      newColors[i + 1] = Math.random();
+      newColors[i + 2] = Math.random();
     }
+    setColors(newColors);
   });
 
   return (
     <group rotation={[0, 0, Math.PI / 4]}>
       <Points ref={ref} positions={sphere} stride={3} frustumCulled={false}>
-        <PointMaterial transparent vertexColors={true} size={0.05} sizeAttenuation={true} depthWrite={false} color={0xffffff} vertexColors={colors} />
+        <PointMaterial transparent vertexColors size={0.05} sizeAttenuation={true} depthWrite={false} />
       </Points>
     </group>
   );
 }
 
-function App() {
-  const [musicPlaying, setMusicPlaying] = useState(false); // 用於追蹤音樂播放狀態
+function Instruction() {
+  return (
+    <Text
+      position={[0, 2, 0]}
+      color="white"
+      fontSize={0.2}
+      maxWidth={2}
+      lineHeight={1}
+      letterSpacing={0.02}
+      textAlign="center"
+      anchorX="center"
+      anchorY="middle"
+    >
+      使用滑鼠拖曳移動視角
+      使用滾輪縮放
+    </Text>
+  );
+}
 
-  const handlePlayMusic = () => {
+function App() {
+  useEffect(() => {
     sound.play();
-    setMusicPlaying(true);
-  };
+  }, []);
 
   return (
     <div className="App" style={{ height: "100vh", overflow: "hidden" }}>
@@ -119,9 +142,8 @@ function App() {
           position: 'relative',
           width: '100%',
           height: '100%',
-        }} // 替換為你的宇宙背景圖片
+        }}
       >
-        <button onClick={handlePlayMusic} style={{ position: "absolute", zIndex: 10, color: 'white', background: 'rgba(0,0,0,0.5)', padding: '10px', border: 'none', borderRadius: '5px' }}>播放音樂</button> {/* 播放音樂的按鈕 */}
         <Canvas shadowMap camera={{ position: [5, 5, 5], fov: 75 }}>
           <ambientLight intensity={0.5} />
           <pointLight position={[10, 10, 10]} castShadow />
@@ -130,6 +152,7 @@ function App() {
           <ParticleSystem />
           <OrbitControls />
           <Stars />
+          <Instruction />
         </Canvas>
       </motion.div>
     </div>
