@@ -1,24 +1,13 @@
-.App {
-  font-family: Arial, sans-serif;
-  text-align: center;
+/* App.css */
+.content {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
 }
 
-.canvas-container {
-  width: 100%;
-  height: 400px;
-  margin-bottom: 20px;
+.content-enter {
+  opacity: 0;
 }
 
-.animated-box {
-  background-color: #87ceeb;
-  padding: 20px;
-  margin: 20px auto;
-  width: 50%;
-  border-radius: 10px;
-}
-
-.chart-container {
-  width: 100%;
-  height: 300px;
-  margin: 0 auto;
+.content-exit {
+  opacity: 0;
 }

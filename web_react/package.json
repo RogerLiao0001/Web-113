@@ -3,24 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gh-pages": "^5.0.0",
-    "howler": "^2.2.3",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-scripts": "5.0.0",
-    "three": "^0.154.0",
-    "@react-three/fiber": "^8.0.0",
-    "@react-three/drei": "^8.0.0"
+    "@react-three/drei": "^9.114.6",
+    "@react-three/fiber": "^8.17.10",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.7",
+    "chart.js": "^4.4.5",
+    "framer-motion": "^11.11.9",
+    "howler": "^2.2.4",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.13.0",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
-  "homepage": "https://<你的 GitHub 使用者名稱>.github.io/<你的專案名稱>/",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -38,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }

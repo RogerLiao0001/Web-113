@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import Calculator from './Calculator';
 import Function2 from './Function2'; // 引入 Function2 組件
-import Function3 from './Function3'; // 引入 Function3 組件
 
 function App() {
   const [activeComponent, setActiveComponent] = useState(null);
@@ -13,15 +12,14 @@ function App() {
         return <Calculator />;
       case 'function2':
         return <Function2 />;
-      case 'function3':
-        return <Function3 />;
+      // 將來可以新增更多 case 來渲染其他組件
+      // case 'function3':
+      //   return <Function3 />;
+      // case 'function4':
+      //   return <Function4 />;
       default:
         return null;
     }
-  };
-
-  const openSurpriseLink = () => {
-    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
   };
 
   return (
@@ -41,10 +39,10 @@ function App() {
             功能2: 3D宇宙模擬
           </button>
           <button onClick={() => setActiveComponent('function3')} style={{ margin: '10px', padding: '10px 20px' }}>
-            功能3: 36小時降雨機率
+            功能3: NFT API
           </button>
-          <button onClick={openSurpriseLink} style={{ margin: '10px', padding: '10px 20px' }}>
-            功能4: 驚喜連結
+          <button onClick={() => setActiveComponent('function4')} style={{ margin: '10px', padding: '10px 20px' }}>
+            功能4: 還在想的功能
           </button>
         </div>
         {renderComponent()}
