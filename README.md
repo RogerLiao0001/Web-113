@@ -8,6 +8,7 @@
 
 ### 💻 HW1
 - **連結**: [HW1 作業連結](https://rogerliao0001.github.io/Web-113/hw1) 
+
 ![HW1](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnc3MjhmNHVlNjVpazdnYjRuODZtamhwY29hOXV1bDd4Ymc5bmp5OCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/WoWm8YzFQJg5i/200.webp) <!-- HW1 相關的 GIF -->
 
 ---
@@ -15,7 +16,8 @@
 ### 🎥 HW2
 - **影片**: [HW2 影片連結](https://rogerliao0001.github.io/Web-113) 
 - **網頁連結**: [HW2 網頁連結](https://rogerliao0001.github.io/Web-113) 
-![HW2](https://media.giphy.com/media/3o6Mbb60XIgYw4Mg6Y/giphy.gif) <!-- HW2 相關的 GIF -->
+
+![HW2](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnV2dDFncjFvNGF3dGx5MnVidHJwaWh4eWExMGs1YmJrb3YxZXUxcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bGgsc5mWoryfgKBx1u/giphy.webp) <!-- HW2 相關的 GIF -->
 
 ---
 
@@ -44,4 +46,4 @@
 
 感謝您的閱讀！希望您喜歡我的專案！🎈
 
-![Thank You](https://media.giphy.com/media/3oEjI6SIIHBd3z9g8c/giphy.gif) <!-- 感謝的 GIF -->
+![Thank You](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXJ1dGt3bXpkdnd1cm51aTRyd3l2Yzc5bGs0cmdjbmJ5ejU5cnA1ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Dg4TxjYikCpiGd7tYs/giphy.webp) <!-- 感謝的 GIF -->
