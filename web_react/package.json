@@ -2,7 +2,7 @@
   "name": "web_react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rogerliao0001.github.io/Web-113/web_react",
+  "homepage": "https://rogerliao0001.github.io/Web-113",
   "dependencies": {
     "@react-three/drei": "^9.114.6",
     "@react-three/fiber": "^8.17.10",
