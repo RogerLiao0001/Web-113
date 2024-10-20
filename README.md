@@ -40,7 +40,7 @@
 如果你有任何問題或建議，隨時可以聯絡我！💬
 
 - GitHub: [rogerliao0001](https://github.com/rogerliao0001) ![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)
-- Email: [your-email@example.com](mailto:your-email@example.com) ![Email](https://img.shields.io/badge/Email-Contact-blue?logo=gmail)
+- Email: [r995022526651@gmail.com](mailto:r995022526651@gmail.com) ![Email](https://img.shields.io/badge/Email-Contact-blue?logo=gmail)
 
 ---
 
