@@ -14,7 +14,7 @@
 ---
 
 ### 🎥 HW2
-- **影片**: [HW2 影片連結](https://www.youtube.com/watch?v=Cz-D6he7m10) 
+- **影片**: [HW2 影片連結](https://www.youtube.com/watch?v=oxUqo_JTftI) 
 - **網頁連結**: [HW2 網頁連結](https://rogerliao0001.github.io/Web-113) 
 
 ![HW2](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnV2dDFncjFvNGF3dGx5MnVidHJwaWh4eWExMGs1YmJrb3YxZXUxcSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/bGgsc5mWoryfgKBx1u/giphy.webp) <!-- HW2 相關的 GIF -->
