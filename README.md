@@ -26,6 +26,7 @@
 - **專題介紹**: [期末專題介紹](https://hackmd.io/T_M2_dVdQ8W8M6QOZgRALw?view)
 - **示例網頁連結**: 
 
+![HW3](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3JkeHY2eHVrMXlhbnc2dnIxN3hyMGR1aGM5aDNxcmRzbmd3YWZhYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PijoWdxNmTR6xYO3Ju/giphy.webp) <!-- HW2 相關的 GIF -->
 ---
 
 ### 📄 HW4
