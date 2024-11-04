@@ -21,7 +21,7 @@
 
 ---
 
-### 📄 HW3：期末專題結合React應用：搶票解決
+### 📄 HW3：期末專題結合React應用——搶票解決
 - **介紹影片**: 
 - **專題介紹**: [解決搶票亂象：融合區塊鏈的票務公平分配與交易系統](https://hackmd.io/T_M2_dVdQ8W8M6QOZgRALw?view)
 - **示例網頁連結**: TicketChain 票鏈](https://rogerliao0001.github.io/hw3)
