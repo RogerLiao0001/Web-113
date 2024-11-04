@@ -24,9 +24,9 @@
 ### 📄 HW3
 - **介紹影片**: 
 - **專題介紹**: [期末專題介紹](https://hackmd.io/T_M2_dVdQ8W8M6QOZgRALw?view)
-- **示例網頁連結**: 
+- **示例網頁連結**: [React網頁](https://rogerliao0001.github.io/hw3)
 
-![HW3](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnVqNm9kdmVvNjZxbnE0amhwYmxreTNnYTNld3Awc21vcmQ4MDRjMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.webp) <!-- HW2 相關的 GIF -->
+![HW3](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnVqNm9kdmVvNjZxbnE0amhwYmxreTNnYTNld3Awc21vcmQ4MDRjMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.webp) 
 ---
 
 ### 📄 HW4
