@@ -6,14 +6,14 @@
 
 ## 📚 作業列表
 
-### 💻 HW1
+### 💻 HW1：自我介紹網站
 - **連結**: [HW1 作業連結](https://rogerliao0001.github.io/Web-113/hw1) 
 
 ![HW1](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnc3MjhmNHVlNjVpazdnYjRuODZtamhwY29hOXV1bDd4Ymc5bmp5OCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/WoWm8YzFQJg5i/200.webp) <!-- HW1 相關的 GIF -->
 
 ---
 
-### 🎥 HW2
+### 🎥 HW2：React動態多功能網站
 - **影片**: [HW2 影片連結](https://www.youtube.com/watch?v=oxUqo_JTftI) 
 - **網頁連結**: [HW2 網頁連結](https://rogerliao0001.github.io/Web-113) 
 
@@ -21,10 +21,10 @@
 
 ---
 
-### 📄 HW3
+### 📄 HW3：期末專題結合React應用：搶票解決
 - **介紹影片**: 
-- **專題介紹**: [期末專題介紹](https://hackmd.io/T_M2_dVdQ8W8M6QOZgRALw?view)
-- **示例網頁連結**: [React網頁](https://rogerliao0001.github.io/hw3)
+- **專題介紹**: [解決搶票亂象：融合區塊鏈的票務公平分配與交易系統](https://hackmd.io/T_M2_dVdQ8W8M6QOZgRALw?view)
+- **示例網頁連結**: TicketChain 票鏈](https://rogerliao0001.github.io/hw3)
 
 ![HW3](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnVqNm9kdmVvNjZxbnE0amhwYmxreTNnYTNld3Awc21vcmQ4MDRjMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.webp) 
 ---
