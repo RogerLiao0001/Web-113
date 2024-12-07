@@ -24,7 +24,7 @@
 ### 📄 HW3：期末專題結合React應用——搶票解決
 - **介紹影片**: [YouTube](https://www.youtube.com/watch?v=D-J6XBXS718)
 - **專題介紹**: [解決搶票亂象：融合區塊鏈的票務公平分配與交易系統](https://hackmd.io/T_M2_dVdQ8W8M6QOZgRALw?view)
-- **示例網頁連結**: [TicketChain 票鏈]([https://rogerliao0001.github.io/hw3](https://blockchain-ticket-cb046d6a501b.herokuapp.com/hw3))
+- [目前之演示網頁](https://blockchain-ticket-cb046d6a501b.herokuapp.com/hw3)
 
 ![HW3](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnVqNm9kdmVvNjZxbnE0amhwYmxreTNnYTNld3Awc21vcmQ4MDRjMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.webp) 
 ---
