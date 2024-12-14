@@ -36,8 +36,8 @@
 
 ### 🎉 期末專題 
 #### 解決搶票亂象：融合區塊鏈的票務公平分配與交易系統
-- [概念介紹簡報](https://www.canva.com/design/DAGWK0eREuo/e2G5NRa9IXbpLWZR8265yA/view?utm_content=DAGWK0eREuo&utm_campaign=designshare&utm_medium=link&utm_source=editor)
-- [目前之演示網頁](https://blockchain-ticket-cb046d6a501b.herokuapp.com/hw3)
+- [介紹影片](https://www.youtube.com/watch?v=2WvXig1GLmw)
+- [成果演示網頁](roger01.site)
 - [介紹網站(隨時更新)](https://hackmd.io/T_M2_dVdQ8W8M6QOZgRALw?view)
 - [專案Github](https://github.com/RogerLiao0001/TicketChain-Demo)
 
